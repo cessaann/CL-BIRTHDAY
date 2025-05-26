@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="landing">
+    <div class="notebook">
+      <p>Happy Birthday!</p>
+      <button onclick="openNotebook()">Open My Letter</button>
+    </div>
+  </div>
+
+  <div class="notebook-container hidden">
+    <div class="page" id="page1">
+      <p>Dear [Name],</p>
+      <p>You are one of the most wonderful people I know. This notebook is a small gift filled with love and memories.</p>
+      <img src="assets/pic1.jpg" class="preview-image">
+    </div>
+
+    <div class="page hidden" id="page2">
+      <p>Remember this day?</p>
+      <p>We laughed so hard that our cheeks hurt. I’ll never forget it ❤️</p>
+      <img src="assets/pic2.jpg" class="preview-image">
+    </div>
+
+    <div class="page hidden" id="page3">
+      <p>Happy Birthday 🎂🎉</p>
+      <p>Wishing you all the love, laughter, and magic today and always.</p>
+      <img src="assets/pic3.jpg" class="preview-image">
+    </div>
+
+    <button onclick="nextPage()">Next Page</button>
+  </div>
+
+  <audio id="bgMusic" src="assets/music.mp3" autoplay loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
