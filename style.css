@@ -110,3 +110,34 @@ body {
   font-weight: bold;
   user-select: none;
 }
+
+@media screen and (max-width: 480px) {
+  .login-box {
+    padding: 20px 15px;
+    border-radius: 10px;
+  }
+
+  .login-box h2 {
+    font-size: 20px;
+  }
+
+  .login-box label,
+  .val1,
+  .val2 {
+    font-size: 13px;
+  }
+
+  .login-box input {
+    font-size: 14px;
+  }
+
+  .login-box button {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .toggle-password {
+    font-size: 12px;
+    right: 8px;
+  }
+}
